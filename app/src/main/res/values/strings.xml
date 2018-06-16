@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AndroidTermProgram</string>
+    <string name="stop">停止</string>
+    <string name="start">下载</string>
+    <string name="start_music">播放</string>
+    <string name="pause_music">暂停</string>
+    <string name="fileName">"GooglePinyinInstaller.1419846448.exe"</string>
+    <string name="description">picture here</string>
+    <string name="string">json array here</string>
+    <string name="part1">File Download</string>
+    <string name="part2">Music</string>
+    <string name="part3">Video</string>
+    <string name="volley_presentation">volley presentation</string>
+    <string name="volley_string">get string</string>
+    <string name="volley_img">get img</string>
+</resources>
