@@ -22,9 +22,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mBottomBar = findViewById(R.id.bottom_tab_bar);
         mBottomBar.init(getSupportFragmentManager(), 500, 900)
-                .addTabItem("crosswalk", R.mipmap.home_selected, R.mipmap.home, Crosswalk.class)
                 .addTabItem("volley", R.mipmap.list, Volley.class)
                 .addTabItem("Download", R.mipmap.list, Download.class)
+                .addTabItem("crosswalk", R.mipmap.home_selected, R.mipmap.home, Crosswalk.class)
                 .setOnTabChangeListener(new BottomTabBar.OnTabChangeListener() {
                     @Override
                     public void onTabChange(int position, String name, View view) {
